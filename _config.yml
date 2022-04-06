@@ -3,7 +3,9 @@ title: Ssag Eu Test
 timezone: Europe/Berlin
 url: "http://localhost:4000" # the base hostname & protocol for your site
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 collections:
   posts:
     title: Posts
