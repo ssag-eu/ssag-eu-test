@@ -1,1 +1,4 @@
 docker exec -it ssag-eu-test-jekyll-1 /bin/sh
+bundle init
+bundle add 'jekyll'
+bundle add 'jekyll-sitemap'
