@@ -8,5 +8,23 @@ collections:
   uploads:
     title: Uploads
     output: true
+  authors:
+    title: Staff
+    output: true
 exclude: 
   - docker-compose.yml
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
